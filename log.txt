@@ -1,0 +1,135 @@
+Microsoft Windows [Version 10.0.19045.6466]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8> git init
+Initialized empty Git repository in C:/Users/hp/Downloads/turtabilty-template-1.21.8/.git/
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>  git add .
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.github/workflows/build.yml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'CHANGELOG.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LICENSE', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'gradle.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'gradle/wrapper/gradle-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'settings.gradle', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/client/java/com/turtial/turtaiblty/config/ClothConfig.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/client/java/com/turtial/turtaiblty/config/ModMenuIntegration.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/client/java/com/turtial/turtaiblty/config/TurtaibltyConfig.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/client/java/com/turtial/turtaiblty/mixin/client/EquipmentLayerRendererMixin.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/client/java/com/turtial/turtaiblty/mixin/client/ExampleClientMixin.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/client/kotlin/com/turtial/turtaiblty/TurtaibltyClient.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/client/kotlin/com/turtial/turtaiblty/TurtaibltyDataGenerator.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/client/resources/assets/turtabilty/lang/en_us.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/client/resources/assets/turtaiblty/lang/en_us.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/client/resources/turtaiblty.client.mixins.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/turtial/turtaiblty/mixin/ExampleMixin.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/kotlin/com/turtial/turtaiblty/Turtaiblty.kt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/fabric.mod.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/turtaiblty.mixins.json', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>  git commit -m "Initial release: Turtabilty 1.0.0"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'hp@DESKTOP-1QU3TND.(none)')
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>  git branch -M main
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>  git remote add origin https://github.com/ItsTZy/Turtabilty-.git
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>  git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ItsTZy/Turtabilty-.git'
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>  git tag -a v1.0.0 -m "Turtabilty v1.0.0"
+fatal: Failed to resolve 'HEAD' as a valid ref.
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8> git config --global user.name "Tzy"
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8> git config --global user.email"omaniazhr@gmail.com"
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8> git add .
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8> git commit -m "Initial release: Turtabilty 1.0.0"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'hp@DESKTOP-1QU3TND.(none)')
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>  git branch -M main
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>  git remote set-url origin https://github.com/ItsTZy/Turtabilty-.git
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>  git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/ItsTZy/Turtabilty-.git'
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>  git tag -a v1.0.0 -m "Turtabilty v1.0.0"
+fatal: Failed to resolve 'HEAD' as a valid ref.
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>  git commit -m "Initial release: Turtabilty 1.0.0"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'hp@DESKTOP-1QU3TND.(none)')
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8> git config --global user.email"omaniazhr@gmail.com
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8> git config --global user.name "Tzy"
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8> git commit -m "Initial release: Turtabilty 1.0.0"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'hp@DESKTOP-1QU3TND.(none)')
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8> git config --global user.name "Tzy"
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8> git config --global user.name "Tzy"
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8> git config --global user.name "Tzy"
+
+C:\Users\hp\Downloads\turtabilty-template-1.21.8>

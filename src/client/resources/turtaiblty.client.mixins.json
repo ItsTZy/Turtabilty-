@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.turtial.turtaiblty.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin",
+		"EquipmentLayerRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

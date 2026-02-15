@@ -1,0 +1,58 @@
+{
+	"schemaVersion": 1,
+	"id": "turtabilty",
+	"version": "${version}",
+	"name": "Turtabilty",
+	"description": "By Tzy. A durability-based armor color mod dedicated to Turt, a beloved pet.",
+	"authors": [
+		"Tzy"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/turtabilty/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "com.turtial.turtaiblty.Turtaiblty",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "com.turtial.turtaiblty.TurtaibltyClient",
+				"adapter": "kotlin"
+			}
+		],
+		"fabric-datagen": [
+			{
+				"value": "com.turtial.turtaiblty.TurtaibltyDataGenerator",
+				"adapter": "kotlin"
+			}
+		],
+		"modmenu": [
+			{
+				"value": "com.turtial.turtaiblty.config.ModMenuIntegration"
+			}
+		]
+	},
+	"mixins": [
+		"turtaiblty.mixins.json",
+		{
+			"config": "turtaiblty.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*",
+		"modmenu": "*",
+		"cloth-config": "*"
+	}
+}
