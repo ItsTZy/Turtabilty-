@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Turtabilty
 
 > Slow and steady armor colors.  
@@ -36,39 +37,31 @@
 - Fabric Loader: `0.18.4+`
 - Fabric API: `0.136.1+1.21.8`
 
-## Build
+## Install
 
-```powershell
-./gradlew build
-```
-
-Main jar:
-
-- `build/libs/turtabilty-1.0.0.jar`
+- Put `turtabilty-1.0.0.jar` in your `.minecraft/mods` folder.
+- Requires Fabric Loader + Fabric API.
+- Open Mod Menu -> `Turtabilty` to configure.
 
 ## Config
 
 - Main config: `config/turtabilty.json`
 - Legacy config `config/turtaiblty.json` is auto-migrated
 
-## Publish To GitHub
+## Turt Easter Eggs
 
-```powershell
-git init
-git add .
-git commit -m "Initial release: Turtabilty 1.0.0"
-git branch -M main
-git remote add origin https://github.com/<your-user>/<your-repo>.git
-git push -u origin main
-```
+- Name an item with `turt`, `memory`, `rip`, or `shell` for hidden color behavior.
+- A small tribute to Turt is built into the mod.
 
-Release tag:
+## Credits
 
-```powershell
-git tag -a v1.0.0 -m "Turtabilty v1.0.0"
-git push origin v1.0.0
-```
+- Author: **Tzy**
+- In memory of: **Turt**
 
 ## License
 
 `CC0-1.0` (see `LICENSE`)
+=======
+# Turtabilty-
+   Turtabilty is a Fabric mod for Minecraft 1.21.8 that changes armor color based on durability, with smooth/step/fade   transitions, customizable durability sections, and a simple Cloth Config + Mod Menu setup. It supports per-material   toggles, optional full-durability coloring, single-base-color gradients, and includes a small tribute to Turt.
+>>>>>>> 67db742871f6323b8f341ff1e82898e1459248b7
